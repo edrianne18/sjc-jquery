@@ -1,0 +1,39 @@
+.player1 {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+}
+
+.up {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    margin-left: 250px;
+    margin-top: -150px;
+}
+
+.arrow{
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.up-arrow:before {
+    content: '\002191';
+}
+
+.up-arrow{
+    height: 95px;
+    width: 95px;
+    top: 5px;
+    left: 160px;
+    border: 1px solid gray;
+}
+
+.up:active {
+    background-color: red;
+    user-select: none;
+}
