@@ -1,0 +1,17 @@
+p {
+    font-size: 30px;
+}
+
+input[type=text] {
+    height: 50px;
+    font-size: 30px;
+    color: red;
+}
+
+div.container {
+    margin-top: 120px;
+}
+
+table {
+    border-style: dotted;
+}
